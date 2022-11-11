@@ -1,0 +1,42 @@
+.nav-container {
+  width: 93%;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 50px;
+  position: absolute;
+  top: 30px;
+}
+
+.nav-container a {
+  text-decoration: none;
+  font-size: 1.2rem;
+}
+
+.nav1 {
+  display: flex;
+  align-items: center;
+  gap: 42px;
+  color: white;
+}
+
+.nav1 h1 {
+  letter-spacing: 0.4rem;
+}
+
+.nav1 a {
+  color: white;
+}
+
+.nav2 {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.nav2 button {
+  height: 28px;
+  width: 28px;
+  border-radius: 50%;
+  background-color: black;
+  color: white;
+}

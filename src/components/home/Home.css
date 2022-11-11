@@ -1,0 +1,43 @@
+.home-container {
+  height: 100vh;
+  width: 100vw;
+}
+
+#myVideo {
+  position: absolute;
+  left: 0;
+  top: 0;
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.hero-section {
+  width: 70%;
+  height: 100vh;
+  background: url(https://images.unsplash.com/photo-1539572142914-79f3e24036a5?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80);
+  background-size: cover;
+}
+
+.home-container {
+  display: flex;
+}
+
+.home-desc {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  /* width: 30%; */
+}
+
+.desc {
+  display: flex;
+  flex-direction: column;
+  gap: 7px;
+}
+
+.desc p {
+  font-weight: bolder;
+}
